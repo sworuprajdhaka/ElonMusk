@@ -1,0 +1,28 @@
+.heading{
+    text-align:center;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:red;
+    flex-direction:row'
+}
+
+.flex-container > div {
+   width:300px;
+   height:500px;
+   margin:10px;
+   border:10px solid black;
+   margin:50px;
+}
+
+.button1{
+    background-color:blue;
+    color:white;
+}
+
+.addcenter{
+    display:grid;
+    justify-content:center;
+}
